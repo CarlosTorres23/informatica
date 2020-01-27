@@ -1,0 +1,12 @@
+pragma solidity ^0.5.0;
+contract helloworld{
+    string word="hello world";
+    
+        function getter()public view returns(string memory){
+            return word;
+        }
+        
+        function setter( string memory _intro_word ) public{
+            word=_intro_word;
+        } 
+}
